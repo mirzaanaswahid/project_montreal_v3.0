@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "crs_xy": "EPSG:32618",
+    "crs_ll": "EPSG:4326",
+    "created_by": "coverage_planner",
+    "note": "boustrophedon lanes; contiguous column blocks per UAV"
+  },
+  "config": {
+    "altitude_m": 400.0,
+    "speed_mps": 12.0,
+    "fov_deg": 90.0,
+    "overlap": 1.2,
+    "lane_spacing_m": 666.667
+  },
+  "cluster_summary": {
+    "selected_boroughs": [
+      "Villeray-Saint-Michel-Parc-Extension",
+      "Rosemont-La Petite-Patrie",
+      "Le Plateau-Mont-Royal",
+      "Ahuntsic-Cartierville"
+    ],
+    "num_high_in_cluster": 3,
+    "sum_shared_border_m": 17796.36
+  },
+  "regions": [
+    {
+      "name": "Villeray-Saint-Michel-Parc-Extension",
+      "key": "villeray-saint-michel-parc-extension",
+      "density": "High",
+      "uavs_assigned": 3,
+      "sweep": {
+        "angle_deg": 151.652,
+        "lane_spacing_m": 666.667
+      },
+      "uavs": [
+        {
+          "uav_id": "villeray_saint_michel_parc_extension__u1",
+          "lane_indices": [
+            1,
+            2
+          ],
+          "waypoints_xy": [
+            {
+              "x": 609740.847,
+              "y": 5047150.286,
+              "z": 400.0
+            },
+            {
+              "x": 607071.353,
+              "y": 5042202.498,
+              "z": 400.0
+            }
+          ]
+        },
+        {
+          "uav_id": "villeray_saint_michel_parc_extension__u2",
+          "lane_indices": [
+            3,
+            4
+          ],
+          "waypoints_xy": [
+            {
+              "x": 606446.028,
+              "y": 5042447.495,
+              "z": 400.0
+            },
+            {
+              "x": 609169.618,
+              "y": 5047495.547,
+              "z": 400.0
+            },
+            {
+              "x": 607384.48,
+              "y": 5045590.884,
+              "z": 400.0
+            },
+            {
+              "x": 605821.032,
+              "y": 5042693.103,
+              "z": 400.0
+            }
+          ]
+        },
+        {
+          "uav_id": "villeray_saint_michel_parc_extension__u3",
+          "lane_indices": [
+            5,
+            6
+          ],
+          "waypoints_xy": [
+            {
+              "x": 606810.592,
+              "y": 5045931.217,
+              "z": 400.0
+            },
+            {
+              "x": 608096.925,
+              "y": 5048315.379,
+              "z": 400.0
+            },
+            {
+              "x": 606237.363,
+              "y": 5046272.772,
+              "z": 400.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rosemont-La Petite-Patrie",
+      "key": "rosemont-la petite-patrie",
+      "density": "High",
+      "uavs_assigned": 3,
+      "sweep": {
+        "angle_deg": 146.999,
+        "lane_spacing_m": 666.667
+      },
+      "uavs": [
+        {
+          "uav_id": "rosemont_la_petite_patrie__u1",
+          "lane_indices": [
+            1,
+            2
+          ],
+          "waypoints_xy": [
+            {
+              "x": 612827.989,
+              "y": 5045697.152,
+              "z": 400.0
+            },
+            {
+              "x": 611746.106,
+              "y": 5044031.265,
+              "z": 400.0
+            }
+          ]
+        },
+        {
+          "uav_id": "rosemont_la_petite_patrie__u2",
+          "lane_indices": [
+            3,
+            4
+          ],
+          "waypoints_xy": [
+            {
+              "x": 610995.586,
+              "y": 5044099.629,
+              "z": 400.0
+            },
+            {
+              "x": 612966.806,
+              "y": 5047134.921,
+              "z": 400.0
+            },
+            {
+              "x": 609237.117,
+              "y": 5042615.952,
+              "z": 400.0
+            }
+          ]
+        },
+        {
+          "uav_id": "rosemont_la_petite_patrie__u3",
+          "lane_indices": [
+            5,
+            6
+          ],
+          "waypoints_xy": [
+            {
+              "x": 608261.636,
+              "y": 5042337.92,
+              "z": 400.0
+            },
+            {
+              "x": 612151.032,
+              "y": 5048326.823,
+              "z": 400.0
+            },
+            {
+              "x": 609768.517,
+              "y": 5045882.238,
+              "z": 400.0
+            },
+            {
+              "x": 607794.313,
+              "y": 5042842.352,
+              "z": 400.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Le Plateau-Mont-Royal",
+      "key": "le plateau-mont-royal",
+      "density": "High",
+      "uavs_assigned": 3,
+      "sweep": {
+        "angle_deg": 53.488,
+        "lane_spacing_m": 666.667
+      },
+      "uavs": [
+        {
+          "uav_id": "le_plateau_mont_royal__u1",
+          "lane_indices": [
+            1,
+            2
+          ],
+          "waypoints_xy": [
+            {
+              "x": 611675.767,
+              "y": 5040652.682,
+              "z": 400.0
+            },
+            {
+              "x": 609056.04,
+              "y": 5042592.055,
+              "z": 400.0
+            }
+          ]
+        },
+        {
+          "uav_id": "le_plateau_mont_royal__u2",
+          "lane_indices": [
+            3,
+            4
+          ],
+          "waypoints_xy": [
+            {
+              "x": 609730.428,
+              "y": 5042922.276,
+              "z": 400.0
+            },
+            {
+              "x": 611874.896,
+              "y": 5041334.735,
+              "z": 400.0
+            },
+            {
+              "x": 610144.879,
+              "y": 5043444.927,
+              "z": 400.0
+            }
+          ]
+        },
+        {
+          "uav_id": "le_plateau_mont_royal__u3",
+          "lane_indices": [
+            5,
+            6
+          ],
+          "waypoints_xy": [
+            {
+              "x": 610587.657,
+              "y": 5043946.608,
+              "z": 400.0
+            },
+            {
+              "x": 612173.409,
+              "y": 5042772.683,
+              "z": 400.0
+            },
+            {
+              "x": 611563.706,
+              "y": 5044053.511,
+              "z": 400.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ahuntsic-Cartierville",
+      "key": "ahuntsic-cartierville",
+      "density": "Medium",
+      "uavs_assigned": 2,
+      "sweep": {
+        "angle_deg": 133.896,
+        "lane_spacing_m": 666.667
+      },
+      "uavs": [
+        {
+          "uav_id": "ahuntsic_cartierville__u1",
+          "lane_indices": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "waypoints_xy": [
+            {
+              "x": 605952.72,
+              "y": 5043796.535,
+              "z": 400.0
+            },
+            {
+              "x": 604681.487,
+              "y": 5042573.379,
+              "z": 400.0
+            },
+            {
+              "x": 607057.467,
+              "y": 5045784.652,
+              "z": 400.0
+            },
+            {
+              "x": 602986.172,
+              "y": 5042792.486,
+              "z": 400.0
+            }
+          ]
+        },
+        {
+          "uav_id": "ahuntsic_cartierville__u2",
+          "lane_indices": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "waypoints_xy": [
+            {
+              "x": 601388.368,
+              "y": 5042180.263,
+              "z": 400.0
+            },
+            {
+              "x": 605869.455,
+              "y": 5046491.875,
+              "z": 400.0
+            },
+            {
+              "x": 600287.261,
+              "y": 5042045.953,
+              "z": 400.0
+            },
+            {
+              "x": 599233.134,
+              "y": 5041031.693,
+              "z": 400.0
+            },
+            {
+              "x": 598783.783,
+              "y": 5041524.488,
+              "z": 400.0
+            },
+            {
+              "x": 601969.379,
+              "y": 5044589.605,
+              "z": 400.0
+            },
+            {
+              "x": 605735.584,
+              "y": 5048213.372,
+              "z": 400.0
+            },
+            {
+              "x": 604485.809,
+              "y": 5047936.016,
+              "z": 400.0
+            },
+            {
+              "x": 604080.377,
+              "y": 5047545.918,
+              "z": 400.0
+            },
+            {
+              "x": 598006.02,
+              "y": 5041701.293,
+              "z": 400.0
+            },
+            {
+              "x": 596701.38,
+              "y": 5040445.994,
+              "z": 400.0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+    "description": "Conditional Probability Map P(Thermal | Context) and Average Thermal Metrics",
+    "generated_on": "2025-04-16T19:07:15.273062",
+    "source_synthetic_data": "/home/px4_sitl/ets_work/code/version3/project_montreal_v2.0/files/synthetic_thermal_data_5yr_landcover.csv",
+    "source_land_cover_data": "/home/px4_sitl/ets_work/code/version3/project_montreal_v2.0/files/landcover-2020-classification.tif",
+    "source_geojson_boundaries": "/home/px4_sitl/ets_work/code/version3/project_montreal_v2.0/files/df.geojson",
+    "grid_crs": "EPSG:3979",
+    "grid_dimensions": {
+        "height": 481,
+        "width": 513
+    },
+    "grid_resolution": 100.0,
+    "grid_affine_transform_gdal": [
+        1628400.0,
+        100.0,
+        0.0,
+        -83600.0,
+        0.0,
+        -100.0
+    ],
+    "grid_origin_in_geojson_crs": {
+        "x": 270394.38751183916,
+        "y": 5075898.871075654,
+        "crs": "EPSG:32188"
+    },
+    "probability_map_file": "conditional_probability_map.npy",
+    "probability_map_shape": [
+        481,
+        513,
+        2,
+        3,
+        20
+    ],
+    "probability_map_dimensions_order": [
+        "y",
+        "x",
+        "season",
+        "tod",
+        "lc"
+    ],
+    "average_metrics_map_file": "average_thermal_metrics.npz",
+    "average_metrics_map_content": [
+        "avg_lift",
+        "avg_radius",
+        "avg_height",
+        "avg_duration"
+    ],
+    "average_metrics_map_shape": [
+        481,
+        513,
+        2,
+        3,
+        20
+    ],
+    "average_metrics_map_dimensions_order": [
+        "y",
+        "x",
+        "season",
+        "tod",
+        "lc"
+    ],
+    "context_mappings": {
+        "season": {
+            "Spring/Fall": 0,
+            "Summer": 1
+        },
+        "time_of_day": {
+            "Morning": 0,
+            "Afternoon": 1,
+            "Late Afternoon": 2
+        },
+        "land_cover_code_to_index": {
+            "0": 0,
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 5,
+            "6": 6,
+            "7": 7,
+            "8": 8,
+            "9": 9,
+            "10": 10,
+            "11": 11,
+            "12": 12,
+            "13": 13,
+            "14": 14,
+            "15": 15,
+            "16": 16,
+            "17": 17,
+            "18": 18,
+            "19": 19
+        }
+    },
+    "probability_calculation": "Frequency count from synthetic data with Laplace smoothing (add 1), normalized by total count per context across all locations + K (num_locations)."
+}
